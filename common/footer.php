@@ -11,7 +11,7 @@
         <?php if ((get_theme_option('Display Footer Copyright') == 1) && $copyright = option('copyright')): ?>
         <p><?php echo $copyright; ?></p>
         <?php endif; ?>
-        <p class="credits"><?php echo __('<a class="designed" href="http://emedara.com">Designed by Emedara Studio</a> <a class="powered" href="http://omeka.org">Proudly powered by Omeka</a>'); ?></p>
+        <p class="credits"><img src="<?php echo img('logo-ville.png'); ?>"/></p>
 
     </div><!-- end footer-content -->
 

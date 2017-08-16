@@ -2118,3 +2118,51 @@ a#advanced-search
 		background-image: none;
 	}
 }
+
+/* ==========================================================================
+   New style rules for Perinum
+   ========================================================================== */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: georgia, sans-serif;
+    color: #b2672e;
+}
+
+body {
+    background-image: url(../images/background.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-color: #9acde4;
+}
+
+#content {
+    font-family: arial, sans-serif;
+}
+
+#content a {
+    color: #b2672e;
+}
+
+#primary-nav a {
+    color: #b2672e;
+}
+
+div#header-image-holder h2 {
+    background: #9acde4 none repeat scroll 0 0;
+    color: #1b1a1a;
+    display: inline-block;
+    line-height: 32px;
+    margin-bottom: 0;
+    padding: 5px 25px;
+    text-transform: uppercase;
+}
+
+#search-container, #featured-collection, #featured-exhibit {
+    background: #9acde4 none repeat scroll 0 0;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+a:hover {
+    color: #9acde4;
+}
