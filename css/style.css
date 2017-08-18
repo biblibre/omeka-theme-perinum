@@ -2150,6 +2150,11 @@ body {
     color: #b2672e;
 }
 
+#home #primary,
+#home #secondary {
+    padding: 5px;
+}
+
 div#header-image-holder h2 {
     background: #9acde4 none repeat scroll 0 0;
     color: #1b1a1a;
