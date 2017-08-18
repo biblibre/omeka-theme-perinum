@@ -2129,10 +2129,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
+    background-color: #9acde4;
+}
+
+#content-wrapper {
     background-image: url(../images/background.png);
     background-position: top center;
     background-repeat: no-repeat;
-    background-color: #9acde4;
 }
 
 #content {
