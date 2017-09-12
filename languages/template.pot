@@ -1,0 +1,25 @@
+# Perinum theme for Omeka.
+# Copyright (C) 2017 Julian Maurice
+# This file is distributed under the same license as the Omeka package.
+# Julian Maurice <julian.maurice@biblibre.com>, 2017
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: omeka-theme-perinum\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-12 08:45+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: exhibit-builder/exhibits/summary.php:15
+msgid "Credits"
+msgstr ""
+
+#: search/search-form.php:2
+msgid "Type here and press Enter"
+msgstr ""

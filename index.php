@@ -25,7 +25,7 @@
 
 <div id="secondary">
 	<div id="search-container">
-		<h2>Search</h2>
+		<h2><?php echo __('Search'); ?></h2>
 		<?php if (get_theme_option('use_advanced_search') === null || get_theme_option('use_advanced_search')): ?>
 		<?php echo search_form(array('show_advanced' => true)); ?>
 		<?php else: ?>
