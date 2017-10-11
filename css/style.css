@@ -154,7 +154,7 @@ header {
   margin: 0 auto;
   padding: 0;
   width: 960px;
-  padding: 3em 0;
+  padding: 2em 0;
   position: relative;
 }
 header:after {
@@ -1936,7 +1936,7 @@ div#header-image-holder p
 }
 div#header-image-holder .held
 {
-	margin: 120px auto 0;
+	margin: 40px auto 0;
 	width: 960px;
 }
 #home h3
