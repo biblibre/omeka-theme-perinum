@@ -2,6 +2,10 @@
 <div id="primary">
     <h1><?php echo metadata('item', array('Dublin Core','Title')); ?></h1>
 
+    <?php if (plugin_is_active('UniversalViewer')): ?>
+        <?php echo $this->universalViewer($item); ?>
+    <?php endif; ?>
+
     <!-- Items metadata -->
     <div id="item-metadata">
         <?php echo all_element_texts('item'); ?>
@@ -32,8 +36,6 @@
         <h3><?php echo __('Citation'); ?></h3>
         <div class="element-text"><?php echo metadata('item','citation',array('no_escape'=>true)); ?></div>
     </div>
-       <?php fire_plugin_hook('public_items_show', array('view' => $this, 'item' => $item)); ?>
-
 
     <ul class="item-pagination navigation">
         <li id="previous-item" class="previous"><?php echo link_to_previous_item_show(); ?></li>
