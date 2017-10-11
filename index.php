@@ -1,7 +1,7 @@
 <?php echo head(array('bodyid'=>'home', 'bodyclass' =>'two-col')); ?>
 <div id="primary">
 <?php if ($homepageText = get_theme_option('Homepage Text')): ?>
-    <div id="homepage-text"><p><?php echo $homepageText; ?></p></div>
+    <div id="homepage-text"><p><?php echo $this->shortcodes($homepageText); ?></p></div>
     <?php endif; ?>
     <?php
     $recentItems = get_theme_option('Homepage Recent Items');
