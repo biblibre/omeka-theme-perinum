@@ -9,7 +9,7 @@ if (!Omeka) {
         var searchSubmit = $('#search-form button');
         if (advancedForm.length > 0) {
             advancedForm.css("display", "none");
-            $('#search-form').addClass("with-advanced").after('<a href="#" id="advanced-search" class="button">Advanced Search</a>');
+            $('#search-form').addClass("with-advanced").after('<a href="#" id="advanced-search" class="button">Recherche avancée</a>');
             advancedForm.click(function (event) {
                 event.stopPropagation();
             });
