@@ -1,4 +1,9 @@
-<?php $itemType = get_current_record('item')->getItemType(); ?>
+<?php
+    $itemType = null;
+    if ($record instanceof Item) {
+        $itemType = get_current_record('item')->getItemType();
+    }
+?>
 <?php foreach ($elementsForDisplay as $setName => $setElements): ?>
     <div class="element-set">
         <?php if ($showElementSetHeadings): ?>
