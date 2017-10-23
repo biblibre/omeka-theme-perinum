@@ -2225,6 +2225,11 @@ footer .credits img {
     color: #b2672e;
 }
 
+#primary-nav li:hover > ul {
+    top: auto;
+    margin-top: 0;
+}
+
 #home #primary,
 #home #secondary {
     padding: 15px;
