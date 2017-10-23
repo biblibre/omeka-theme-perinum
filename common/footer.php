@@ -12,7 +12,13 @@
         <?php if ((get_theme_option('Display Footer Copyright') == 1) && $copyright = option('copyright')): ?>
         <p><?php echo $copyright; ?></p>
         <?php endif; ?>
-        <p class="credits"><img src="<?php echo img('logo-ville.png'); ?>"/></p>
+        <p class="credits">
+            <img src="<?php echo img('BM_REG-NouvelleAquitaine.jpg'); ?>"/>
+            <img src="<?php echo img('logo-mediatheque-noir.jpg'); ?>"/>
+            <img src="<?php echo img('logo ministere culture.jpg'); ?>"/>
+            <img src="<?php echo img('logo_NA-Horizontal_Coul.jpg'); ?>"/>
+            <img src="<?php echo img('Mairie-bulle-Culture.png'); ?>"/>
+        </p>
 
     </div><!-- end footer-content -->
 
