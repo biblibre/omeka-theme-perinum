@@ -142,13 +142,18 @@
 
       <?php
         $item = get_db()->getTable($doc->model)->find($doc->modelid);
-        echo item_image_gallery(
-            array('wrapper' => array('class' => 'gallery')),
-            'square_thumbnail',
-            false,
-            $item
-        );
+        $files = $item->Files;
       ?>
+      <?php if (!empty($files)): ?>
+        <div class="gallery">
+          <?php foreach ($files as $file): ?>
+            <?php
+              $image = file_image('square_thumbnail', array(), $file);
+              echo link_to($item, 'show', $image);
+            ?>
+          <?php endforeach; ?>
+        </div>
+      <?php endif; ?>
 
     </div>
 
