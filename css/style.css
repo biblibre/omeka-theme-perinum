@@ -46,8 +46,6 @@ h1, h2, h3 {
 h1 {
   font-size: 30px;
   line-height: 36px;
-  text-transform: uppercase;
-
 }
 
 h2 {
@@ -1960,10 +1958,6 @@ div#header-image-holder .held
 #featured-collection a:hover, #featured-collection a:active, #featured-exhibit a:hover, #featured-exhibit a:active
 {
 	color: #fff;
-}
-h2
-{
-	text-transform: uppercase;
 }
 #homepage-text
 {
