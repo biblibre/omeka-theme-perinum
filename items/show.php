@@ -33,7 +33,7 @@
     </div>
 
     <?php if (plugin_is_active('Commenting')): ?>
-        <?php CommentingPlugin::showComments(); ?>
+        <?php CommentingPlugin::showComments($item); ?>
     <?php endif; ?>
 
     <ul class="item-pagination navigation">
