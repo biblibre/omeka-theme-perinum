@@ -20,7 +20,7 @@
                 <?php endif; ?>
                 <?php foreach ($elementInfo['texts'] as $text): ?>
                     <div class="element-text">
-                        <?php if (filter_var($text, FILTER_VALIDATE_URL, FILTER_FLAG_SCHEME_REQUIRED | FILTER_FLAG_HOST_REQUIRED)): ?>
+                        <?php if (filter_var($text, FILTER_VALIDATE_URL)): ?>
                             <a href="<?php echo htmlspecialchars($text, ENT_HTML5); ?>"><?php echo $text; ?></a>
                         <?php else: ?>
                             <?php echo $text; ?>
